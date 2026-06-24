@@ -762,6 +762,7 @@ namespace CybersecurityChatbotWPF
             QuizEnded?.Invoke(this, EventArgs.Empty); // Notify UI that quiz ended
         }
 
+        // Export conversation to text file
         private void SaveConversation()
         {
             try
