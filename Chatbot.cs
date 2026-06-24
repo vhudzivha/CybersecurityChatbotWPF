@@ -481,6 +481,7 @@ namespace CybersecurityChatbotWPF
             }
         }
 
+        // Stores chatbot activities
         private void LogActivity(string description)
         {
             activityLog.Add(new ActivityLogEntry(description));
