@@ -29,6 +29,7 @@ namespace CybersecurityChatbotWPF
         public event EventHandler QuizEnded;
         public event EventHandler RequestUserInput; // For scenarios where the bot needs specific input (e.g., task title)
 
+        // General chatbot responses used for common user interactions
         private Dictionary<string, string[]> generalResponses = new Dictionary<string, string[]>
         {
             { "how are you?", new string[] { "I'm a bot, so I don't have feelings, but I'm here to help!", "I'm functioning optimally.", "Ready to assist you!" } },
