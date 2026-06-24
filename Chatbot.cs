@@ -626,6 +626,9 @@ namespace CybersecurityChatbotWPF
 
 
 
+
+
+        // Starts cybersecurity quiz
         private void StartQuiz()
         {
             if (!quizQuestions.Any())
