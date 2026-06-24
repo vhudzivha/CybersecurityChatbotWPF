@@ -37,6 +37,7 @@ namespace CybersecurityChatbotWPF
             { "exit", new string[] { "Goodbye! Stay safe online.", "Thank you for chatting. Be secure!", "Have a safe digital experience!" } }
         };
 
+        // Cybersecurity knowledge base containing awareness topics
         private Dictionary<string, string[]> cybersecurityResponses = new Dictionary<string, string[]>
         {
             { "password", new string[] {
