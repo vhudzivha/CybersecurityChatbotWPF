@@ -9,6 +9,7 @@ namespace CybersecurityChatbotWPF
         private static string connectionString =
             "Data Source=chatbot.db;Version=3;";
 
+        // Initializes SQLite database and creates required tables
         public static void InitializeDatabase()
         {
             using (SQLiteConnection conn =
